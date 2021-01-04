@@ -43,9 +43,9 @@ const nsfw = JSON.parse(fs.readFileSync('./src/nsfw.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN?
             + 'VERSION:3.0\n' // NGAPAIN LAGI KALO GA MAU NUMPANG NAMA DOANG XIXIXIXI
-            + 'FN:ғᴀᴅɪʟᴋɴᴛʟ\n' // MENDING LU TOBAT SU!
-            + 'ORG:Creator DILBOT;\n' // KASIH CREDITS GUA SU!!!
-            + 'TEL;type=CELL;type=VOICE;waid=6285343788098:+62 853-4378-8098\n' // JANGAN KEK BABI SU
+            + 'FN:DARINNN\n' // MENDING LU TOBAT SU!
+            + 'ORG:Creator RINNNKUN;\n' // KASIH CREDITS GUA SU!!!
+            + 'TEL;type=CELL;type=VOICE;waid=6285768105325:+62 857-6810-5325\n' // JANGAN KEK BABI SU
             + 'END:VCARD' // ARIS187 ID
 prefix = '!'
 blocked = []            
@@ -55,9 +55,9 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    A187: 'DILBOT', // TOBAT SU ASU
-    instagram: 'https://instagram.com/fadil_vg78', // INFO JANGAN DI UBAH
-    nomer: 'wa.me/6285343788098', // INFO SU JNGAN DI UBAH
+    A187: 'RINNNKUN', // TOBAT SU ASU
+    instagram: 'https://instagram.com/rin_biji', // INFO JANGAN DI UBAH
+    nomer: 'wa.me/6285768105325', // INFO SU JNGAN DI UBAH
     youtube: 'https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg', // KINTIL
     whatsapp: 'https://chat.whatsapp.com/DSSHmG2KjKJLoFp9B9mkVs', // BABI
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
@@ -188,7 +188,7 @@ laki-laki/perempuan :
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6285343788098@s.whatsapp.net"] // ganti nomer lu
+			const ownerNumber = ["6285768105325@s.whatsapp.net"] // ganti nomer lu
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -265,7 +265,7 @@ laki-laki/perempuan :
 					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
 				case 'blocklist': 
-					teks = '𝗕𝗟𝗢𝗖𝗞 𝗟𝗜𝗦𝗧 𝗗𝗜𝗟𝗕𝗢𝗧:\n'
+					teks = '𝗕𝗟𝗢𝗖𝗞 𝗟𝗜𝗦𝗧 RINNNKUN:\n'
 					for (let block of blocked) {
 						teks += `┣➢ @${block.split('@')[0]}\n`
 					}
