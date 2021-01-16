@@ -43,9 +43,9 @@ const nsfw = JSON.parse(fs.readFileSync('./src/nsfw.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN?
             + 'VERSION:3.0\n' // NGAPAIN LAGI KALO GA MAU NUMPANG NAMA DOANG XIXIXIXI
-            + 'FN:DARINNN\n' // MENDING LU TOBAT SU!
-            + 'ORG:Creator RINNNKUN;\n' // KASIH CREDITS GUA SU!!!
-            + 'TEL;type=CELL;type=VOICE;waid=6285768105325:+62 857-6810-5325\n' // JANGAN KEK BABI SU
+            + 'FN:MANUEL\n' // MENDING LU TOBAT SU!
+            + 'ORG:Creator NUELBOT;\n' // KASIH CREDITS GUA SU!!!
+            + 'TEL;type=CELL;type=VOICE;waid=6285854736710:+62 858-5473-6710\n' // JANGAN KEK BABI SU
             + 'END:VCARD' // ARIS187 ID
 prefix = '!'
 blocked = []            
@@ -57,7 +57,7 @@ const bulan = arrayBulan[moment().format('MM') - 1]
 const config = {
     A187: 'RINNNKUN', // TOBAT SU ASU
     instagram: 'https://instagram.com/rin_biji', // INFO JANGAN DI UBAH
-    nomer: 'wa.me/6285768105325', // INFO SU JNGAN DI UBAH
+    nomer: 'wa.me/6285854736710', // INFO SU JNGAN DI UBAH
     youtube: 'https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg', // KINTIL
     whatsapp: 'https://chat.whatsapp.com/DSSHmG2KjKJLoFp9B9mkVs', // BABI
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
